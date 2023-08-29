@@ -1,0 +1,86 @@
+:root{
+  --dark:#19283f;
+  --green:#33d1cc;
+  --red:#ff3150;
+  --yellow:#ffc400;
+}
+/*start header*/
+header{
+  background-color: var(--dark);
+}
+  .navbar .navbar-nav .nav-link{
+    color: white;
+    font-weight: bold;
+  }
+    .navbar .navbar-nav .nav-link:hover{
+      color: var(--green);
+    }
+  .navbar .navbar-nav .nav-item{
+    margin: 0px 5px;
+  }
+  header .content{
+    color: white;
+  }
+ header .container .row{
+    height:calc(100vh - 70px);
+    
+  }
+/*end header*/
+/*start work*/
+.work{
+  background: #F0F0F0;
+}
+.work .container ul{
+
+  text-align: center;
+  
+
+}
+.work .container ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 10px;
+}
+/*end work*/
+/*start team*/
+.team{
+  background: #F0F0F0;
+}
+/*end team*/
+/*start blog*/
+.paraa {
+  border: solid 1px #777;
+  border-top: none;
+}
+.paraa-img{
+  border: solid 1px #777;
+  border-bottom: none;
+}
+/*end blog*/
+/*start form */
+.form{
+  background: var(--yellow);
+}
+label{
+  color: var(--dark);
+}
+input {
+  border: none;
+  border-bottom:solid 1px white;
+  background:transparent;
+  width: 100%;
+}
+input::placeholder{
+  color: white;
+}
+ .button-form button{
+  background: var(--dark);
+  color: var(--yellow);
+}
+/*end form*/
+/*start footer*/
+.footer{
+  background: var(--dark);
+  
+}
+/*end footer*/
